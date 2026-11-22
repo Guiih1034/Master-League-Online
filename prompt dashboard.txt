@@ -1,0 +1,264 @@
+# MASTER LEAGUE ONLINE (MLO) — DASHBOARD PRINCIPAL
+
+Crie o dashboard principal de uma aplicação web chamada **Master League Online (MLO)**, uma plataforma moderna para gerenciamento de ligas e campeonatos online do EA FC 26/27.
+
+O sistema deve permitir que os participantes acompanhem seus clubes, partidas, classificações, estatísticas, transferências e competições em um único lugar.
+
+O projeto deve ter aparência de uma plataforma profissional de esports, com identidade gamer, moderna e premium.
+
+## 1. IDENTIDADE VISUAL
+
+Utilize uma identidade visual moderna, com predominância de tons escuros, roxo e ciano.
+
+**Paleta de cores:**
+- Fundo principal: `#090B16`
+- Fundo secundário: `#111827`
+- Cards: `#191B35`
+- Roxo principal: `#8B5CF6`
+- Roxo claro: `#A78BFA`
+- Ciano: `#06B6D4`
+- Texto principal: `#F8FAFC`
+- Texto secundário: `#94A3B8`
+- Verde: `#22C55E`
+- Vermelho: `#EF4444`
+
+**Diretrizes:**
+- Dark mode como padrão.
+- Tipografia moderna, preferencialmente Inter.
+- Cards com bordas discretas e cantos arredondados.
+- Ícones minimalistas.
+- Animações suaves e transições discretas.
+- Visual organizado, sem excesso de informações.
+- Layout inspirado em plataformas profissionais de gerenciamento esportivo e esports.
+
+O nome **Master League Online** deve aparecer na interface, acompanhado da sigla **MLO**.
+
+Slogan provisório: **Your League. Your Legacy.**
+
+Não utilize logotipos oficiais da EA Sports, FIFA ou EA FC. A identidade visual deve ser independente.
+
+## 2. ESTRUTURA DO MENU LATERAL
+
+Crie uma sidebar moderna, que possa ser expandida e recolhida.
+
+Itens do menu:
+
+1. Dashboard
+2. Minhas Ligas
+3. Competições
+4. Partidas
+5. Clubes
+6. Jogadores
+7. Transferências
+8. Estatísticas
+9. Notificações
+10. Configurações
+
+Na parte inferior, incluir:
+- Foto ou avatar do usuário.
+- Nome do usuário.
+- Tipo de acesso (Administrador ou Participante).
+- Botão para sair da conta.
+
+## 3. CABEÇALHO PRINCIPAL
+
+O cabeçalho deve apresentar:
+
+- Saudação personalizada: "Olá, [Nome do usuário]!"
+- Nome da liga selecionada.
+- Temporada atual.
+- Campo de pesquisa.
+- Ícone de notificações.
+- Avatar e menu do usuário.
+
+## 4. CARDS DE RESUMO
+
+Criar quatro cards principais:
+
+**Card 1 — Participantes ativos**
+- Quantidade de participantes cadastrados.
+- Indicador visual de crescimento.
+
+**Card 2 — Partidas disputadas**
+- Total de partidas realizadas.
+- Progresso em relação ao total da temporada.
+
+**Card 3 — Rodada atual**
+- Número da rodada.
+- Situação da rodada (Em andamento, Finalizada ou Não iniciada).
+
+**Card 4 — Clubes cadastrados**
+- Quantidade de clubes participantes.
+
+Os números devem ser dinâmicos e preparados para integração com o banco de dados.
+
+## 5. CLASSIFICAÇÃO DO CAMPEONATO
+
+Criar uma tabela moderna de classificação, exibindo:
+
+- Posição.
+- Escudo do clube.
+- Nome do clube.
+- Jogos.
+- Vitórias.
+- Empates.
+- Derrotas.
+- Saldo de gols.
+- Pontos.
+
+Regras:
+- Vitória: 3 pontos.
+- Empate: 1 ponto.
+- Derrota: 0 pontos.
+- Critérios de desempate configuráveis pelo administrador.
+- Atualização automática após a confirmação dos resultados.
+
+Destacar visualmente:
+- Primeiras posições.
+- Zona de classificação.
+- Zona intermediária.
+- Zona de rebaixamento, caso exista.
+
+Exibir inicialmente os cinco primeiros colocados, com opção para visualizar a tabela completa.
+
+## 6. PRÓXIMAS PARTIDAS
+
+Criar uma seção com as próximas partidas.
+
+Cada partida deve apresentar:
+- Escudo e nome dos clubes.
+- Data e horário.
+- Número da rodada.
+- Status da partida.
+- Botão para visualizar detalhes.
+
+Utilizar um visual semelhante a uma transmissão esportiva, destacando os dois clubes.
+
+## 7. RESULTADOS RECENTES
+
+Criar uma seção com os últimos resultados registrados.
+
+Exibir:
+- Escudo dos clubes.
+- Placar.
+- Data da partida.
+- Rodada.
+- Status de confirmação.
+
+Resultados ainda não confirmados devem apresentar um indicador visual específico.
+
+## 8. ESTATÍSTICAS DA TEMPORADA
+
+Criar cards ou pequenos painéis para:
+
+- Artilheiro da temporada.
+- Líder em assistências.
+- Melhor ataque.
+- Melhor defesa.
+- Maior sequência de vitórias.
+
+Cada informação deve apresentar o jogador ou clube correspondente.
+
+## 9. ATIVIDADE RECENTE
+
+Criar uma timeline de atividades mostrando acontecimentos importantes:
+
+- Resultado de partida confirmado.
+- Nova partida agendada.
+- Transferência realizada.
+- Novo participante cadastrado.
+- Alteração na classificação.
+- Nova competição criada.
+
+Cada atividade deve apresentar ícone, descrição e horário.
+
+## 10. FUNCIONALIDADES E INTERAÇÕES
+
+O dashboard não deve ser apenas uma tela estática.
+
+Implementar:
+- Navegação funcional entre os itens do menu.
+- Seleção de liga.
+- Seleção de temporada.
+- Pesquisa visual.
+- Abertura de detalhes das partidas.
+- Acesso à classificação completa.
+- Acesso às estatísticas.
+- Menu de perfil.
+- Central de notificações.
+
+Criar dados fictícios consistentes para demonstrar o funcionamento inicial.
+
+Utilizar como exemplo:
+- 20 participantes.
+- 20 clubes.
+- 38 rodadas.
+- Temporada 2026.
+
+Os dados devem ser coerentes entre classificação, resultados e estatísticas.
+
+## 11. RESPONSIVIDADE
+
+O sistema deve funcionar perfeitamente em:
+
+- Computadores.
+- Notebooks.
+- Tablets.
+- Smartphones.
+
+No celular:
+- Sidebar deve se transformar em menu compacto.
+- Cards devem se reorganizar.
+- Tabelas devem permitir visualização adequada.
+- Botões devem ser acessíveis e fáceis de utilizar.
+
+## 12. PREPARAÇÃO PARA O BACKEND
+
+Preparar a estrutura para futura integração com:
+
+- Next.js.
+- React.
+- Tailwind CSS.
+- Supabase.
+- PostgreSQL.
+- Supabase Auth.
+- Supabase Realtime.
+
+Considerar dois tipos principais de usuários:
+
+**Administrador:**
+- Gerencia ligas.
+- Cadastra participantes.
+- Gerencia clubes.
+- Configura competições.
+- Gerencia partidas e resultados.
+- Controla regras e permissões.
+
+**Participante:**
+- Visualiza sua liga.
+- Acompanha seu clube.
+- Consulta partidas.
+- Acompanha classificação.
+- Consulta estatísticas.
+- Acompanha transferências.
+
+Preparar a estrutura para controle de permissões e segurança dos dados.
+
+Resultados e transferências devem possuir mecanismos de confirmação e histórico de alterações.
+
+## 13. ORIENTAÇÕES FINAIS
+
+Quero um dashboard com aparência de um produto profissional, que possa futuramente ser utilizado por diversas comunidades de Master League Online.
+
+Priorize:
+- Experiência do usuário.
+- Organização das informações.
+- Facilidade de navegação.
+- Automação.
+- Visual profissional.
+- Responsividade.
+- Estrutura preparada para expansão.
+
+Não crie somente uma imagem ou protótipo visual. Desenvolva uma interface web funcional, com componentes reutilizáveis, navegação e interações reais.
+
+**IMPORTANTE:** Nesta primeira etapa, concentre-se no dashboard principal. Não implemente todos os módulos do sistema de uma só vez. Deixe a arquitetura preparada para adicionarmos os próximos módulos gradualmente.

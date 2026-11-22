@@ -1,0 +1,72 @@
+# PROMPT — FUT DRAFT MODO CARREIRA
+
+Desenvolva um simulador interativo de FUT Draft inspirado no EA Sports FC Ultimate Team, mas adaptado para utilização no Modo Carreira.
+
+## 1. Objetivo
+Criar um sistema de sorteio de jogadores para montar elencos de futebol, utilizando probabilidades baseadas exclusivamente no Overall dos jogadores.
+
+## 2. Sistema de probabilidades
+
+Utilizar obrigatoriamente a seguinte distribuição:
+
+| Faixa de Overall | Probabilidade |
+|---|---:|
+| 90–99 | 3% |
+| 85–89 | 7% |
+| 80–84 | 15% |
+| 75–79 | 20% |
+| 70–74 | 20% |
+| 65–69 | 15% |
+| 60–64 | 10% |
+| 45–59 | 10% |
+| TOTAL | 100% |
+
+As probabilidades devem ser iguais para todas as posições.
+
+## 3. Funcionamento do sorteio
+
+- O usuário deverá selecionar uma posição.
+- O sistema deverá apresentar 5 opções de jogadores.
+- Cada opção deverá receber um Overall sorteado individualmente.
+- Primeiro, sortear a faixa de Overall conforme as probabilidades estabelecidas.
+- Depois, sortear um Overall inteiro dentro da faixa selecionada.
+- Cada jogador deverá ter um sorteio independente.
+- Não deverá existir garantia de aparecer uma carta de cada faixa.
+
+## 4. Posições disponíveis
+
+- GOL — Goleiro
+- ZAG — Zagueiro
+- LD — Lateral-direito
+- LE — Lateral-esquerdo
+- VOL — Volante
+- MC — Meio-campista
+- MEI — Meia-atacante
+- PD — Ponta-direita
+- PE — Ponta-esquerda
+- ATA — Atacante
+
+## 5. Montagem do elenco
+
+O simulador deverá permitir selecionar um dos cinco jogadores apresentados em cada rodada.
+
+O jogador escolhido deverá ser adicionado ao elenco, mantendo:
+- Posição;
+- Overall;
+- Faixa de Overall;
+- Ordem de escolha.
+
+
+## 7. Regras importantes
+
+- Não utilizar cartas especiais.
+- Não utilizar probabilidades baseadas em raridade.
+- Utilizar somente as faixas de Overall estabelecidas.
+- Não alterar as porcentagens.
+- Todas as posições devem utilizar exatamente a mesma distribuição.
+- O Overall deve ser um número inteiro.
+
+## 8. Apos os 11 iniciais selecionados
+
+- O primeiro jogador reserva escolhido precisa ser exclusivamente goleiro
+- Os demais podem ser de todas as posiçoes

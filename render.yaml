@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: liga-virtual
+    runtime: node
+    buildCommand: npm install && npm run seed
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: DB_PATH
+        value: /opt/render/project/src/data/liga.db
+      - key: NODE_ENV
+        value: production
+    disk:
+      name: liga-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1

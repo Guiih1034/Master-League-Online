@@ -1,0 +1,30 @@
+{
+  "name": "master-league-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Master League Online – gerenciador de liga de futebol (web + PWA) com backend Node e SQLite",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "seed": "node server/seed.js",
+    "check": "node scripts/check.js",
+    "mobile:init": "npx cap init",
+    "mobile:android": "npx cap add android",
+    "mobile:sync": "npx cap sync",
+    "mobile:open": "npx cap open android",
+    "vercel-build": "node -e \"console.log('vercel build: static public')\""
+  },
+  "engines": {
+    "node": ">=22.x"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemailer": "^10.6.1",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  }
+}
