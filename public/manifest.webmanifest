@@ -1,0 +1,17 @@
+{
+  "name": "Master League Online",
+  "short_name": "MLO",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#08070c",
+  "theme_color": "#08070c",
+  "icons": [
+    {
+      "src": "/app-icon.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
